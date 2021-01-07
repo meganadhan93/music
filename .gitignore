@@ -2,7 +2,6 @@
 *.ipr
 *.ids
 *.exe
-*.iws
 .idea/
 
 .project
