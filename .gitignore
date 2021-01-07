@@ -2,7 +2,7 @@
 *.ipr
 *.ids
 *.iws
-
+*.exe
 
 .idea/
 
