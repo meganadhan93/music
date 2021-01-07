@@ -1,11 +1,9 @@
 *.iml
 *.ipr
 *.ids
-<<<<<<< HEAD
 *.iws
-=======
 *.exe
->>>>>>> 1cc19a98d8f437272bbd54f4673110eab60ab24c
+
 .idea/
 
 .project
