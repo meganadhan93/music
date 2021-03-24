@@ -17,3 +17,7 @@ applications:
       provider: newrelic
       version: n/a
       plan: standard
+  memory: 1G
+  random-route: true
+  path: build/libs/spring-music.jar
+

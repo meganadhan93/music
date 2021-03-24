@@ -1,11 +1,16 @@
 *.iml
 *.ipr
+*.ids
 *.iws
 
+*.exe
+
+.idea/
 
 .project
 .metadata
 local.properties
+application.properties
 .classpath
 .settings/
 .loadpath
@@ -17,3 +22,5 @@ target/
 build/
 
 *.log*
+/classes/
+/bin/
