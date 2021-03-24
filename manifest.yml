@@ -1,6 +1,22 @@
 ---
 applications:
 - name: spring-music
+  memory: 1024M
+  instances: 1
+  host: spring-music-${random-word}
+  domain: cfapps.io
+  path: build/libs/spring-music.war
+  services:
+    music-db: 
+      label: elephantsql
+      provider: elephantsql
+      version: n/a
+      plan: turtle
+    newrelic:
+      label: newrelic
+      provider: newrelic
+      version: n/a
+      plan: standard
   memory: 1G
   random-route: true
   path: build/libs/spring-music.jar
